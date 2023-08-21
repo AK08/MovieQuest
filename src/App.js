@@ -4,7 +4,7 @@ import './App.css';
 import SearchIcon from './search.svg';
 
 const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=b059fc30';
-
+ 
 const App = () => {
     const [movies, setMovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
@@ -24,7 +24,7 @@ const App = () => {
 
     return (
         <div className='app'>
-            <h1>MovieLand</h1>
+            <h1>MovieQuest</h1>
 
             <div className='search'>
                 <input
